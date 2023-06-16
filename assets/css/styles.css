@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* Paleta de colores */
+  --platinum: #E8EBE4;
+  --gray: #BEC1BB;
+  --blue-bell: #A491D2;
+  --soap: #CDC3E6;
+  --pale-lavender: #D4DCFF;
+  --dark-jungle: #1B1F21;
+  --outer-space: #444749;
+  --old-silver: #828485;
+
+  /* Font Families */
+  --roboto: 'Roboto', sans-serif;
+  --opensans: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(112, 112, 112);
+  height: 100vh;
+}
+
+.principal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 90%;
+  height: 100vh;
+}
+
+.principal-section img {
+  width: 20rem;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  padding: 30px;
+}
+
+.text-card h1 {
+  font-family: var(--roboto);
+  font-size: 3rem;
+}
+
+.text-card p {
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
