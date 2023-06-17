@@ -35,7 +35,7 @@ main {
 /* Contact section */
 
 .border {
-  border: 1px var(--old-silver);
+  border: 1px var(--platinum);
   border-style: solid;
 }
 
@@ -52,7 +52,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
 }
 
 .active-user .user-status {
@@ -89,7 +89,24 @@ main {
   width: 30%;
   color: var(--old-silver);
   font-size: 20px;
+}
 
+.new-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+}
+
+.new-chat button {
+  appearance: none;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  background-color: var(--blue-bell);
+  color: white;
+  font-size: medium;
 }
 
 /* Principal section */
