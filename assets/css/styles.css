@@ -25,27 +25,82 @@
 
 body {
   background-color: white;
+  font-family: var(--roboto);
 }
 
 main {
   display: flex;
 }
 
+/* Contact section */
+
+.border {
+  border: 1px var(--old-silver);
+  border-style: solid;
+}
+
 .contacts {
   display: flex;
   flex-direction: column;
-  background-color: rgb(112, 112, 112);
+  background-color: white;
+  width: 15%;
   height: 100vh;
 }
 
+.active-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+}
+
+.active-user .user-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 70%;
+  gap: 10px;
+}
+
+.user-img img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info p {
+  font-size: small;
+  color: var(--old-silver);
+}
+
+.active-user .user-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4rem;
+  width: 30%;
+  color: var(--old-silver);
+  font-size: 20px;
+
+}
+
+/* Principal section */
 .principal-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
-  width: 90%;
+  background-color: var(--platinum);
+  width: 85%;
   height: 100vh;
 }
 
@@ -64,12 +119,12 @@ main {
 }
 
 .text-card h1 {
-  font-family: var(--roboto);
-  font-size: 3rem;
+  font-family: var(--opensans);
+  font-size: 2.8rem;
 }
 
 .text-card p {
-  font-family: var(--roboto);
-  font-size: 1.2rem;
+  font-family: var(--opensans);
+  font-size: 1rem;
   line-height: 1.5rem;
 }
