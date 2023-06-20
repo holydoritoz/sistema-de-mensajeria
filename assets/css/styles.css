@@ -38,11 +38,6 @@ main {
   border: 1px solid var(--gray);
 }
 
-.user-border {
-  border: 2px solid var(--blue-bell);
-
-}
-
 .main-container {
   width: 100vw;
   height: 100vh;
@@ -110,7 +105,7 @@ main {
 .new-chat button {
   appearance: none;
   border: none;
-  width: 10rem;
+  width: 13rem;
   height: 3rem;
   cursor: pointer;
   background-color: var(--blue-bell);
@@ -132,7 +127,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 85px;
+  height: 90px;
   gap: 0.5rem;
   border: 1px solid var(--gray);
   padding: 1rem;
