@@ -38,6 +38,11 @@ main {
   border: 1px solid var(--gray);
 }
 
+.user-border {
+  border: 2px solid var(--blue-bell);
+
+}
+
 .main-container {
   width: 100vw;
   height: 100vh;
@@ -55,7 +60,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 4rem;
+  height: 5rem;
 }
 
 .active-user .user-status {
@@ -68,7 +73,7 @@ main {
 }
 
 .user-img img {
-  width: 50px;
+  width: 60px;
   border-radius: 50%;
 }
 
@@ -116,6 +121,30 @@ main {
 .new-chat button:hover {
   background-color: var(--soap);
   transition: background-color 0.3s ease;
+}
+
+.friend-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  gap: 0.5rem;
+  border: 1px solid var(--gray);
+  padding: 1rem;
+}
+
+.friend-contact:hover {
+  background-color: var(--soap);
+}
+
+.friend-img img {
+  width: 60px;
+  border-radius: 50%;
 }
 
 /* Principal section */
