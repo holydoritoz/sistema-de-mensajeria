@@ -35,16 +35,19 @@ main {
 /* Contact section */
 
 .border {
-  border: 1px var(--platinum);
-  border-style: solid;
+  border: 1px solid var(--gray);
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
 .contacts {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  width: 15%;
-  height: 100vh;
+  flex-basis: 300px;
+  height: 100%;
+  min-width: 200px;
 }
 
 .active-user {
@@ -65,7 +68,7 @@ main {
 }
 
 .user-img img {
-  width: 40px;
+  width: 50px;
   border-radius: 50%;
 }
 
@@ -104,9 +107,15 @@ main {
   border: none;
   width: 10rem;
   height: 3rem;
+  cursor: pointer;
   background-color: var(--blue-bell);
   color: white;
   font-size: medium;
+}
+
+.new-chat button:hover {
+  background-color: var(--soap);
+  transition: background-color 0.3s ease;
 }
 
 /* Principal section */
