@@ -47,7 +47,7 @@ main {
 .contacts {
   flex-basis: 300px;
   height: 100%;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 .active-user {
