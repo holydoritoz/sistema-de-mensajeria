@@ -28,10 +28,6 @@ body {
   font-family: var(--roboto);
 }
 
-main {
-  display: flex;
-}
-
 /* Contact section */
 
 .border {
@@ -116,6 +112,10 @@ main {
 .new-chat button:hover {
   background-color: var(--soap);
   transition: background-color 0.3s ease;
+}
+
+.new-chat button:focus {
+  background-color: var(--gray);
 }
 
 .friend-main-container {
